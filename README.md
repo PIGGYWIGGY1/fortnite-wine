@@ -1,16 +1,16 @@
 # fortnite-wine
-##Collection of my wine patches for fortnite, including a fixed crash and anticheat work.
+## Collection of my wine patches for fortnite, including a fixed crash and anticheat work.
 
-##psapi-fix:  
+## psapi-fix:  
 Fixes an issue where the game tries to call functions inside the physical dll, which is only supposed to work on older versions of the dll.
 
 
-#Upcoming Patches (soon):
+# Upcoming Patches (soon):
 
-##register-callbacks-definition-fix:  
+## register-callbacks-definition-fix:  
 Currently the ObRegisterCallbacks function definition is incorrect in wine
 
-##register-callbacks-implementation:  
+## register-callbacks-implementation:  
 A basic implementation of ObRegisterCallbacks which satisfies all the parameters that battleye uses.
 
 
