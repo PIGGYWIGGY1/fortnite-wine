@@ -7,6 +7,9 @@ Fixes an issue where the game tries to call functions inside the physical dll, w
 
 # Upcoming Patches (soon):
 
+## Update:
+I have gotten my ObRegisterCallbacks implementation working, but the code quality isn't good enough to release it yet.  I am going to continue working on other battleye-related functions before I update this repository, sorry.
+
 ## register-callbacks-definition-fix:  
 Currently the ObRegisterCallbacks function definition is incorrect in wine
 
